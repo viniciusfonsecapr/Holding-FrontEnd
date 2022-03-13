@@ -2,6 +2,7 @@ import React from "react";
 import { Form, H1, P, Input, Button, Link, Err } from "./styles";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useNavigate } from "react-router-dom";
 import * as yup from "yup";
 
 const schema = yup
@@ -15,6 +16,12 @@ const schema = yup
   .required();
 
 function Login() {
+  const navigate = useNavigate();
+
+  function navigateTo(url) {
+    navigate(`/${url}`);
+  }
+
   const {
     register,
     handleSubmit,
@@ -39,7 +46,7 @@ function Login() {
       <Err>{errors.password?.message}</Err>
 
       <Button type="submit">LOGIN</Button>
-      <Link>REGISTER NOW</Link>
+      <Link onClick={() => navigateTo("register")}>REGISTER NOW</Link>
     </Form>
   );
 }
