@@ -7,7 +7,7 @@ export const Form = styled.form`
   align-items: center;
   height: 100%;
   width: 100%;
-  color: #000000;
+  color: white;
   margin-top: 100px;
 `;
 

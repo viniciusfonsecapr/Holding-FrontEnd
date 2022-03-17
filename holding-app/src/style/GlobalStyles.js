@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: white;
+    color: black;
 }
 `;

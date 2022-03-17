@@ -44,10 +44,10 @@ function Register() {
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
-      <H1>Welcome!</H1>
-      <P>Make your registration.</P>
+      <H1>Bem Vindo!</H1>
+      <P>Faça seu registro.</P>
 
-      <Input placeholder="Full Name" type="text" {...register("email")} />
+      <Input placeholder="Full Name" type="text" {...register("name")} />
       <Err>{errors.name?.message}</Err>
 
       <Input placeholder="Email Andress" type="text" {...register("email")} />
@@ -63,8 +63,8 @@ function Register() {
       />
       <Err>{errors.confirmPassword?.message}</Err>
 
-      <Button type="submit">REGISTER</Button>
-      <Link onClick={() => navigateTo("")}>ALREADY HAVE AN ACCOUNT?</Link>
+      <Button type="submit">REGISTRAR</Button>
+      <Link onClick={() => navigateTo("")}>Já tem conta? </Link>
     </Form>
   );
 }

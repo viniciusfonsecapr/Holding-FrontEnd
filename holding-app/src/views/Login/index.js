@@ -36,8 +36,8 @@ function Login() {
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
-      <H1>Welcome back!</H1>
-      <P>Please login to your account.</P>
+      <H1>Seja bem vindo!</H1>
+      <P>Faça Login na sua Conta.</P>
 
       <Input placeholder="Email Andress" type="text" {...register("email")} />
       <Err>{errors.email?.message}</Err>
@@ -45,8 +45,8 @@ function Login() {
       <Input placeholder="Password" type="password" {...register("password")} />
       <Err>{errors.password?.message}</Err>
 
-      <Button type="submit">LOGIN</Button>
-      <Link onClick={() => navigateTo("register")}>REGISTER NOW</Link>
+      <Button type="submit">ACESSAR</Button>
+      <Link onClick={() => navigateTo("register")}>REGISTRAR-SE</Link>
     </Form>
   );
 }
