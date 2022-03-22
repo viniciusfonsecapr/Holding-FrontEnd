@@ -1,5 +1,19 @@
 import styled from "styled-components";
 
+
+export const Container = styled.div`
+width: 100%;
+height: 80%;
+@media (max-width: 300px)
+{
+  display: flex;
+  align-items: left;
+ width: 100%;
+ height: 300px;
+ max-height:100%;
+
+}
+`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -11,11 +25,20 @@ export const Form = styled.form`
   margin-top: 100px;
   margin-left: 120px;
 
-  @media (max-width: 600px)
+  @media (max-width: 700px)
 {
- width: 100%;
- height: 100%;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+  margin-left: 0px;
+
 }
+
 `;
 
 export const H1 = styled.h1`
@@ -88,14 +111,18 @@ height: 600px;
 background-color: gray;
 margin-top: -400px;
 
-@media (max-width: 600px)
+@media (max-width: 900px)
 {
-  display: block;
-  width: 200px;
-  height: 200px;
+  display: flex;
+  float: left;
+  width: 180px;
+  height: 180px;
   background:none;
   margin-top: 80px;
-  margin-right:-180px;
+  margin-left: 100px;
+
+  
+ 
 }
 
 

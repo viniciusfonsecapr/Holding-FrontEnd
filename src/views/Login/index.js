@@ -1,6 +1,7 @@
+
 import React from "react";
 import LoginImg from '../../assets/login1.svg'
-import { Form, H1, P, Input, Button, Link, Err,ContainerLoginImage,LoginImage} from "./styles";
+import { Container,Form, H1, P, Input, Button, Link, Err,ContainerLoginImage,LoginImage} from "./styles";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useNavigate } from "react-router-dom";
@@ -36,7 +37,7 @@ function Login() {
   }
 
   return (
-    <div>
+    <Container>
     <Form onSubmit={handleSubmit(onSubmit)}>
       <H1>Seja bem vindo!</H1>
       <P>Faça Login na sua Conta.</P>
@@ -51,8 +52,9 @@ function Login() {
       <Link onClick={() => navigateTo("register")}>REGISTRAR-SE</Link>
     </Form>
     <ContainerLoginImage><LoginImage src={LoginImg}></LoginImage></ContainerLoginImage>
-    </div>
+    </Container>
   );
 }
 
 export default Login;
+

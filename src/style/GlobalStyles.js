@@ -9,5 +9,6 @@ export default createGlobalStyle`
     text-decoration: none;
     background-color: white;
     color: black;
-}
-`;
+    max-width:1500px;
+    max-height: 1000px;
+}`
