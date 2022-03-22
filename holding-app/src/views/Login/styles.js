@@ -4,11 +4,18 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   user-select: none;
-  align-items: center;
+  float: left;
   height: 100%;
   width: 100%;
   color: white;
   margin-top: 100px;
+  margin-left: 120px;
+
+  @media (max-width: 600px)
+{
+ width: 100%;
+ height: 100%;
+}
 `;
 
 export const H1 = styled.h1`
@@ -66,9 +73,39 @@ export const Link = styled.a`
   font-weight: bold;
   cursor: pointer;
   color: #696969;
+  
 `;
 
 export const Err = styled.span`
   color: #ff0000;
   font-size: 14px;
 `;
+
+export const ContainerLoginImage = styled.div`
+float: right;
+width: 700px;
+height: 600px;
+background-color: gray;
+margin-top: -400px;
+
+@media (max-width: 600px)
+{
+  display: block;
+  width: 200px;
+  height: 200px;
+  background:none;
+  margin-top: 80px;
+  margin-right:-180px;
+}
+
+
+`
+export const LoginImage = styled.img`
+display: flex;
+width: 400px;
+height: 100%;
+float: right;
+margin-top: -20px;
+margin-right: 150px;
+background: none;
+`
