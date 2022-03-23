@@ -37,7 +37,7 @@
 </p>
 
 <br>
-## :sparkles: Features ##
+## :sparkles: Features 
 
 :heavy_check_mark: Login com Yup
 :heavy_check_mark: Componentizaçao
