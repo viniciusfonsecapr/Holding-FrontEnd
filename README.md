@@ -1,7 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Tela-de-Login-com-Validacao" />
 
-  &#xa0;
 
   <a href="https://holdingapp.netlify.app">Link para acessar a aplicação</a>
 </div>
