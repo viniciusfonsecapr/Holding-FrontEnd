@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://holdingapp.netlify.app">Demo</a>
+  <a href="https://holdingapp.netlify.app">Link para acessar a aplicação</a>
 </div>
 
 <h1 align="center">Tela-de-Login-com-Validacao</h1>
