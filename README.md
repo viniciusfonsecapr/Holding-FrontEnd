@@ -20,13 +20,11 @@
 
 </p>
 
-Status
-
  <h4 align="center">
 	Tela de Login com Validação 🚀 Online
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -39,11 +37,6 @@ Status
 </p>
 
 <br>
-
-## :dart: About ##
-
-Describe your project
-
 ## :sparkles: Features ##
 
 :heavy_check_mark: Login com Yup
